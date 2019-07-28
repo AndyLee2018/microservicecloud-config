@@ -5,21 +5,12 @@ spring: 
 ---
 server: 
   port: 7001 #注册中心占用7001端口,冒号后面必须要有空格
-<<<<<<< HEAD
-   
-spring: 
-  profiles: dev
-  application: 
-    name: microservicecloud-config-eureka-client
-    
-=======
 
 spring: 
  profiles: dev 
  application: 
   name: microservicecloud-config-eureka-client 
 
->>>>>>> 6e4eb9f39e2f7e629a4390a4b6fedc66f7b4629f
 eureka: 
  instance: 
   hostname: eureka7001.com #冒号后面必须要有空格
