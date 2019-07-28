@@ -32,4 +32,3 @@ eureka:
  instance: 
   instance-id: dept-8001.com
   prefer-ip-address: true
----
