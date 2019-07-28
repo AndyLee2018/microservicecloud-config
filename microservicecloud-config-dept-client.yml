@@ -1,9 +1,9 @@
 spring: 
  profiles: 
-  active:
+  active: 
   - dev
---- 
-server: 
+---
+server:  
  port: 8001
 spring: 
  profiles: dev   
